@@ -1,0 +1,12 @@
+<script>
+    // Dada uma string, use um loop for para contar quantas letras "a" (tanto maiúsculas quanto minúsculas) existem na string. Exiba a contagem.
+
+    const palavra = prompt(`Informe uma palavra`);
+    let fds = []
+    for (i = 0; i < palavra.length; i++) {
+        if (palavra[i] == "A" || palavra[i] == "a") {
+            fds.push(palavra[i])
+        }
+    }
+    alert(fds.length)
+</script>
